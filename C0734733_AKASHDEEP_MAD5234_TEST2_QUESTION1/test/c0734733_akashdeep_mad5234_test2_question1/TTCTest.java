@@ -51,8 +51,8 @@ public class TTCTest {
         @Test
     public void test1() {
          
-      String[] from = {"Don Mills"};
-        String[] to = {"Leslie"};
+      String[] from = {"Leslie"};
+        String[] to = {"Don Mills"};
         double result = ttc.calculateTotal(from,to);
         assertEquals(2.50, result,0.0);
     }
