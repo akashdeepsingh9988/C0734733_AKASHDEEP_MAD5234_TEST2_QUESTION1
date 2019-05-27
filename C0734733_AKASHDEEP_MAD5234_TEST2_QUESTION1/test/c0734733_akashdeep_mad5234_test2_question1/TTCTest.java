@@ -48,6 +48,8 @@ public class TTCTest {
          
     }
     
+        // requirement 1
+
         @Test
     public void test1() {
          
@@ -56,6 +58,19 @@ public class TTCTest {
         double result = ttc.calculateTotal(from,to);
         assertEquals(2.50, result,0.0);
     }
+    
+    
+    // requirement 2
+         @Test
+    public void test2() {
+         
+      String[] from = {"Sheppard"};
+        String[] to = {"Finch"};
+        double result = ttc.calculateTotal(from,to);
+        assertEquals(3.00, result,0.0);
+    }
+    
+
     
     
 }

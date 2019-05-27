@@ -23,7 +23,7 @@ public class TTC {
         }
         
         // one way trip zone 2
-        else if((from[0] ==  "Finch" && to[0] == "Sheppered") || (from[0] ==  "Sheppered" && to[0] == "Finch"))
+        else if((from[0] ==  "Finch" && to[0] == "Sheppard") || (from[0] ==  "Sheppard" && to[0] == "Finch"))
         {
             return 3.00;
         }
