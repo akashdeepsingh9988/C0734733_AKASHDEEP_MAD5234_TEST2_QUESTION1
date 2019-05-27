@@ -38,7 +38,6 @@ public class TTC {
             double trip_cost = 3.00;
              if(from[1] == "Leslie" && to[1] == "Don Mills")
              {
-                 System.out.println("here");
                  trip_cost = trip_cost + 2.50; 
              }
              return trip_cost;
