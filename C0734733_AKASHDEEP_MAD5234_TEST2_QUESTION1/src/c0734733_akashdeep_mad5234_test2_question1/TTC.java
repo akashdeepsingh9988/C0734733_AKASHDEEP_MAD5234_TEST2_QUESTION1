@@ -28,6 +28,10 @@ public class TTC {
             return 3.00;
         }
      
+         else if((from[0] ==  "Finch" && to[0] == "Don Mills") || (from[0] ==  "Don Mills" && to[0] == "Finch"))
+        {
+            return 3.00;
+        }
        
         
         return 0.0;

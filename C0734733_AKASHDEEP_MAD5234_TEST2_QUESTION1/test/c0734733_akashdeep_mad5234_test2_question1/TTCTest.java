@@ -70,6 +70,16 @@ public class TTCTest {
         assertEquals(3.00, result,0.0);
     }
     
+        // requirement 3
+         @Test
+    public void test3() {
+         
+      String[] from = {"Don Mills"};
+        String[] to = {"Finch"};
+        double result = ttc.calculateTotal(from,to);
+        assertEquals(3.00, result,0.0);
+    }
+    
 
     
     
