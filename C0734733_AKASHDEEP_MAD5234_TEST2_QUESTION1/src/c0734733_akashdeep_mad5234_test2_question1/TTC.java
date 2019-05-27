@@ -22,6 +22,11 @@ public class TTC {
             return 2.50;
         }
         
+         else if (from.length >2 && to.length >2 )
+         {
+           return 6.00;
+         }
+        
         // one way trip zone 2
         else if((from[0] ==  "Finch" && to[0] == "Sheppard") || (from[0] ==  "Sheppard" && to[0] == "Finch"))
         {
@@ -42,6 +47,9 @@ public class TTC {
              }
              return trip_cost;
          }
+        
+        
+        
         
         return 0.0;
     }

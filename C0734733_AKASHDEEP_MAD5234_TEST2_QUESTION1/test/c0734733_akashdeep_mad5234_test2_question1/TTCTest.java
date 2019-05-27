@@ -90,4 +90,14 @@ public class TTCTest {
         assertEquals(5.50, result,0.0);
     }
     
+          // requirement 5
+         @Test
+    public void test5() {
+         
+        String[] from = {"Finch", "Leslie","Sheppard"};
+        String[] to = {"Sheppard","Don Mills","Sheppard"};
+        double result = ttc.calculateTotal(from,to);
+        assertEquals(6.0, result,0.0);
+    }
+    
 }
