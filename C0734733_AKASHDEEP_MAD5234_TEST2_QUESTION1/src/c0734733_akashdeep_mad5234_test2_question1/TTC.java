@@ -33,6 +33,15 @@ public class TTC {
             return 3.00;
         }
        
+         else if (from[0] == "Finch" && to[0] == "Sheppard" )
+         {
+            double trip_cost = 3.00;
+             if(from[1] == "Leslie" && to[1] == "Don Mills")
+             {
+                 trip_cost = trip_cost + 2.50; 
+             }
+             return trip_cost;
+         }
         
         return 0.0;
     }
